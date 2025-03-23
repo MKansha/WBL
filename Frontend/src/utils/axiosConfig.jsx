@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = "http://127.0.0.1:8000/api";
+axios.defaults.baseURL = "https://webelievelogistics.org/api";
 axios.defaults.withCredentials = true; // Send cookies with requests
 
 export default axios;
