@@ -15,13 +15,13 @@ class SuperAdminSeeder extends Seeder
     public function run(): void
     {
         User::updateOrCreate(
-            ['email' => 'kansha@mntfuture.com'],
+            ['email' => 'docs@webelievelogistics.com'],
             [
 
                 'firstname' => 'Super',
                 'lastname' => 'Admin',
                 'phone' => '+918056939559',
-                'password' => Hash::make('23122312'),
+                'password' => Hash::make('wblwbl'),
                 'email_verified_at' => now(),
                 'created_at' => now(),
                 'updated_at' => now(),
